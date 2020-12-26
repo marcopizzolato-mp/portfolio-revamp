@@ -1,0 +1,87 @@
+baseURL = "https://marcopizzolato.com/"
+languageCode = "en-us"
+title = "Marco Pizzolato Portfolio"
+theme = "mediumish-gohugo-theme"
+summaryLength = 25
+DefaultContentLanguage = "en"
+copyright = "Marco Pizzolato - All rights reserved"
+enableEmoji = true
+publishDir = "public_web"
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+#disqusShortname = "your-shortname-here"
+#googleAnalytics = "UA-132680808-1"
+
+[permalinks]
+    post = "/:year/:month/:day/:slug/"
+
+[params]
+  logo = "/images/portfolio-02.png"
+  #TODO
+  logo2 = "/images/black_globe.png"
+  description ="This is the porfolio of Marco Pizzolato" #description of the website for the search engines
+  #mailchimp = "you can provide a mailchimp-link here"
+
+[params.author] # not sure where these go
+  name = "Marco Pizzolato"
+  thumbnail = "/images/marco_rea2.jpg"
+  description = "Creator of this blog."
+  
+[params.index]
+  picture = "./images/marcopizzo.jpg"
+  title = "Marco Pizzolato"
+  subtitle = "GIS Expert & Data Explorer"
+  mdtext = '''
+\
+<b>Welcome to my personal website!</b>  
+  
+This space is a collection of some of the works I have completed so far, from my time in South Sudan responding to the on-going crisis, to my Master in GIS at Edinburgh. You will also find other data explorations mainly with R.   
+     
+     
+<b>A little about me...</b>
+  
+Dynamic and energetic I am very passionate about the projects I get involved in. I am always looking for new projects to embark on which will challenge my brain bringing out my inventiveness, creativity and imagination to find the best solution.   
+Strongly believing that <i>“Together we stand, alone we fall”</i> I always collaborate in a profitable way with my team members, often building over time strong friendships.  
+  
+Happy exploring and get in touch if you want to know more!    
+</br>
+   
+<b><a href="http://www.marcopizzolato.com">Explore!</a></b>
+'''
+  alertbar = false
+
+#TODO
+
+# [params.social]
+ # github = "Marcopizzo87"
+#   linkedin = "pizzolatomarco"
+#   pdf = "file/d/16nn7L30nMfCIKSLkRq1Sbh7QR76H-Frk/view?usp=sharing"
+#   mail = "contact@marcopizzolato.com"
+  # xing = "<username>"
+  # medium = "<username>"
+
+[params.social]
+  github = "<username>"
+  linkedin = "<username>"
+  xing = "<username>"
+  medium = "<username>"
+  twitter = "<username>"
+  instagram = "<username>"
+
+## Main Menu
+[[menu.main]]
+    name = "work1" # This is the name in the menu
+    weight = 100
+    identifier = "to_assign2"
+    url = "/blog" #TODO to swap order landing page
+    
+[[menu.main]]
+    name = "About Me"
+    identifier = "about"
+    weight = 300
+    url = "/about"
+    
+[[menu.main]]
+    name = "curriculum"
+    identifier = "curriculum"
+    weight = 200
+    url = "/curriculum"
