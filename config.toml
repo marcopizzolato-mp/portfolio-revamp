@@ -14,14 +14,14 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$","\\.knit\\.md$",
 [permalinks]
     post = "/:year/:month/:day/:slug/"
 
+# This refers to Site.Params
 [params]
   logo = "/images/portfolio-02.png"
-  #TODO
-  logo2 = "/images/black_globe.png"
+  logo2 = "/images/rocket_01.png"
   description ="This is the porfolio of Marco Pizzolato" #description of the website for the search engines
   #mailchimp = "you can provide a mailchimp-link here"
 
-[params.author] # not sure where these go
+[params.author] # Line with the author face-mane
   name = "Marco Pizzolato"
   thumbnail = "/images/marco_rea2.jpg"
   description = "Creator of this blog."
@@ -69,19 +69,25 @@ Happy exploring and get in touch if you want to know more!
 
 ## Main Menu
 [[menu.main]]
-    name = "work1" # This is the name in the menu
+    name = "Projects" # This is the name in the menu
     weight = 100
-    identifier = "to_assign2"
-    url = "/blog" #TODO to swap order landing page
+    identifier = "projects"
+    url = "/" #Done - replacing parts in the index page
     
 [[menu.main]]
     name = "About Me"
-    identifier = "about"
+    identifier = "about_bio"
     weight = 300
-    url = "/about"
+    url = "/about/bio"
     
 [[menu.main]]
     name = "curriculum"
-    identifier = "curriculum"
+    identifier = "curriculum_vitae"
     weight = 200
-    url = "/curriculum"
+    url = "/curriculum/vitae"
+
+[[menu.main]]
+    name = "extra"
+    identifier = "extra"
+    weight = 400
+    url = "/static"
