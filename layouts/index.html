@@ -39,29 +39,34 @@
             </div>
         </div>
         <div class="main-content">
-            <!-- Posts Index
+            <!-- Posts Index 
             ================================================== -->
             <section class="recent-posts">            
                 <div class="section-title">                
-                    <h2><span>Here my latest data explorations</span></h2>                
+                    <h2 style="font-weight: 650; font-size: 1.2rem;"><span>Here some of my latest projects</span></h2>                
                 </div>            
                 <div class="row listrecent">
-                    <!-- {{ $post_paginator := .Paginate (where .Data.Pages "Type" "blog") 6 }} -->
-                    {{ $post_paginator := .Paginate (.Pages) 6 }}
+                    {{ $post_paginator := .Paginate (where .Site.RegularPages "Type" "posts") 6 }}
+                    <!-- Range through the pages -->                
                     {{ range $post_paginator.Pages }}
+                        <!-- In folder partials use the postbox to build the card square -->
                         {{- partial "list-partials/postbox.html" . -}}
+                        
                     {{end}}
                 </div>
             </section>
             {{- partial "list-partials/pagination.html" $post_paginator -}}
         </div>
-    <!-- Massive bar - which I don't like with the subscribe banner
-        {{- partial "_shared/alertbar.html" . -}}
-    -->
-    {{ end }}
+        <!-- Massive bar - which I don't like with the subscribe banner
+        {{- partial "_shared/alertbar.html" . -}}-->
+    
+    
+    
+
+    <!-- This is the end of main -->
+    {{ end }} 
     
     {{ define "footer"}}
-    <!-- {{- partial "_shared/jumbotron.html" . -}} -->
     <br/>
         {{- partial "_shared/footer.html" . -}} 
     {{ end }}
