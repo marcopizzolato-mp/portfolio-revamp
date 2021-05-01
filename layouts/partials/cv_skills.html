@@ -1,0 +1,8 @@
+<div class="section">
+    <h1 class="section-title">{{ .Site.Params.title_as.skills }}</h1>
+    <div class="item">
+    {{ range .Site.Data.features.skills }}
+    <li style="list-style-type: square; padding-left: 0px; list-style-position: inside; margin: 8px 0;">{{.}}</li>
+    {{ end }}
+    </div>
+</div> 

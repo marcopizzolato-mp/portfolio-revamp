@@ -1,0 +1,11 @@
+<div class="section">
+    <h1 class="section-title">{{ .Site.Params.title_as.skills }}</h1>
+    {{ range .Site.Data.features.skillsGrouped }}
+    <div class="item">
+        <h3 class="item-title">{{ .groupName }}</h3>
+        {{ range .skills }}
+        <li style="list-style-type: square; padding-left: 0px; list-style-position: inside; margin: 8px 0;">{{.}}</li>
+        {{ end }}
+    </div>
+    {{ end }}
+</div>
