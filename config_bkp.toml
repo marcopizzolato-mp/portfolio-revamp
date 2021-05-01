@@ -23,14 +23,10 @@ unsafe= true
   logo2 = "/images/rocket_01.png"
   description ="This is the porfolio of Marco Pizzolato" #description of the website for the search engines
   #mailchimp = "you can provide a mailchimp-link here"
-  useFontAwesome = true
-  avatar = ""
-  bib_style = "IEEE" # IEEE, APA, else
-
 
 [params.author] # Line with the author face-mane
   name = "Marco Pizzolato"
-  thumbnail = "/images/marco_prof_3.jpg"
+  thumbnail = "/images/marco_prof_2.jpg"
   description = "Creator of this blog."
   
 [params.index]
@@ -87,54 +83,3 @@ Happy exploring and get in touch if you want to know more!
     identifier = "curriculum_vitae"
     weight = 200
     url = "/curriculum/vitae"
-
-
-[params.display]
-experience = true
-education = true
-languages = true
-awards = false
-skills = false
-skills_grouped = true
-interests = true
-contact = true
-linkedin = false
-tagline = true
-aboutMe = false
-projects = false
-publications = false
-certificates = false
-avatar = false
-
-[params.title_as]
-experience = "Experience"
-education = "Education"
-languages = "Languages"
-awards = "Awards"
-skills = "Skills"
-certificates = "Certifications"
-interests = "Interests"
-about_me = "About Me"
-publications = "Publications"
-projects = "Projects"
-
-[params.display.footer]
-footer = true
-links = false
-credits = false
-
-[params.footer]
-footnote = "You can print this resume in or save as pdf directly from the browser - Last update on March 2021."
-
-[params.footer.links]
-[[params.footer.links.link]]
-prefix = "Contact me on"
-name = "Linkedin"
-url = "https://linkedin.com/in/mertbakir/"
-icon = "fab fa-linkedin"
-
-[[params.footer.links.link]]
-prefix = "Check out my"
-name = "Website"
-url = "https://mertbakir.gitlab.io/about/"
-icon = "fas fa-globe"
