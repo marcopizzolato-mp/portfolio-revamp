@@ -1,0 +1,61 @@
+skills:
+  - "Python - R - Jupyter - "
+  - "SQL - Oracle"
+  - "QGIS - ArcGIS Desktop - ArcGIS PRO"
+  - "ArcGIS Enterprise - ESRI API"
+
+
+skillsGrouped:
+  - groupName: "GIS Software"
+    skills: ["QGIS - ArcGIS Desktop - ArcGIS PRO - ArcGIS Enterprise"]
+
+  - groupName: "Data analysis & Programming"
+    skills: ["Python - Jupyter Notebook - R - SQL - Excel - GitHub - HTML - CSS"]
+ 
+  - groupName: "Database"
+    skills: ["PostgreSQL - PostGIS - Oracle - Oracle spatial"]
+
+
+interests:
+  - "Data Science"
+  - "Geospatial Problems"
+  - "Remote Sensing"
+
+languages:
+  - name: "Italian"
+    level: "Native"
+
+  - name: "English"
+    level: "Fluent"
+    certificates: ["IELTS : 7.5 C1 - 2016"]
+
+  - name: "Spanish"
+    level: "Basic"
+
+
+awards:
+  - name: "Spot Light Award"
+    date: "2017"
+    details: "A Decision Support System for 3D Cutting Problem"
+
+certificates:
+  - name: "Supervised Learning: Regression"
+    date: "2020"
+    issued_by: "Coursera"
+    link: "https://xkcd.com/605/"
+
+  - name: "Supervised Learning: Classification"
+    date: "2020"
+    issued_by: "Coursera"
+    link: "https://xkcd.com/388/"
+
+
+about:
+  - name: "Marco Pizzolato"
+    tagline: "Senior GIS Consultant"
+    phone: ""
+    linkedin: "/in/mertbakir"
+    email: "contact@marcopizzolato.com"
+    details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ornare sollicitudin fringilla.
+              Aenean nec volutpat arcu. Maecenas quis tempus risus. Curabitur condimentum ligula in erat pharetra porta. 
+              Nam suscipit nisi a bibendum lacinia."
