@@ -39,3 +39,20 @@ Stores templates in the form of .html files that specify how views of your conte
 
 static
 Stores all the static content: images, CSS, JavaScript, etc.
+
+# CV
+
+Added another HUGO template in the current template to fill the page about the CV
+
+Folder Data: contains the .yaml with the inforamtion to fill the CV sections
+
+D:\Documents\R_portfolio-revamp\layouts\curriculum
+list.html - default to avoid the page to display as list
+single.html - New CV page with 
+single_normal.html - standard CV page 
+
+D:\Documents\R_portfolio-revamp\layouts\partials
+Added the partials for the CV with "cv_"
+
+
+

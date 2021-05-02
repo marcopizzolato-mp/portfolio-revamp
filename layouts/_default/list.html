@@ -1,0 +1,34 @@
+{{ define "header"}}
+    {{- partial "_shared/navbar.html" . -}}
+{{ end }}
+
+{{ define "main" }}
+    <!--{{- partial "_shared/title.html" . -}}-->
+    <div class="main-content">
+        <!-- Posts Index 
+        ================================================== -->
+        <section class="recent-posts">            
+            <div class="section-title">                
+                <h2><span>_default list partial</span></h2>                
+            </div>            
+            <div class="row listrecent">
+                {{ $post_paginator := .Paginate (.Pages) 6 }}
+                <!-- Range through the pages -->
+                {{ range $post_paginator.Pages }}
+                    <!-- In folder partials use the postbox to build the card square -->
+                    {{- partial "list-partials/postbox.html" . -}}
+                {{end}}
+            </div>
+        </section>
+        {{- partial "list-partials/pagination.html" $post_paginator -}}
+    </div>
+    <!-- Massive bar - which I don't like with the subscribe banner
+    {{- partial "_shared/alertbar.html" . -}}-->
+
+    
+{{ end }}
+
+{{ define "footer"}}
+    {{- partial "_shared/footer.html" . -}} 
+{{ end }}
+
