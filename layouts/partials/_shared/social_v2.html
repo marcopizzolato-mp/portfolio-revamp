@@ -1,0 +1,20 @@
+<section class="text-center">
+    <br/>
+    {{ with .Site.Params.social.linkedin }}
+    &nbsp;
+    <a href="https://linkedin.com/in/{{.}}"><i class="fab fa-linkedin social-icon-vitae" aria-hidden="true"></i></a>
+    {{ end }}
+    {{ with .Site.Params.social.pdf }}
+    &nbsp;
+    &nbsp;
+    <a href="https://drive.google.com/{{.}}"><i class="fas fa-file-pdf social-icon-vitae" aria-hidden="true"></i></a>
+    {{ end }}
+    <!--
+    {{ with .Site.Params.social.pdf }}
+    &nbsp;
+    <a href="https://linkedin.com/in/{{.}}"><i class="fab fa-linkedin social-icon" aria-hidden="true"></i></a>
+    {{ end }}
+    -->
+    <br/>
+    <br/>
+</section>
