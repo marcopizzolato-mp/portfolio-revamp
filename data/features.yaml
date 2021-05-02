@@ -6,14 +6,14 @@ skills:
 
 
 skillsGrouped:
-  - groupName: "GIS Software"
-    skills: ["QGIS - ArcGIS Desktop - ArcGIS PRO - ArcGIS Enterprise"]
+  - groupName: "GIS"
+    skills: ["QGIS - ArcGIS Desktop - ArcGIS Enterprise - ArcGIS Developers APIs - ArcGIS Online - Scripting with Arcpy "]
 
   - groupName: "Data analysis & Programming"
     skills: ["Python - Jupyter Notebook - R - SQL - Excel - GitHub - HTML - CSS"]
  
   - groupName: "Database"
-    skills: ["PostgreSQL - PostGIS - Oracle - Oracle spatial"]
+    skills: ["PostgreSQL - PostGIS - Oracle - Oracle Spatial"]
 
 
 interests:
