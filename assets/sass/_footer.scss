@@ -1,0 +1,30 @@
+footer {
+    width: 8.25in;
+    margin: 36px auto;
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+}
+  
+.link-text {
+    font-weight: 700;
+}
+
+.footer-item {
+    //I'm doing nothing here.
+}
+
+#link::after {
+    content: "\00B7";
+}
+
+#link:last-child::after {
+    content: "";
+}
+  
+footer {
+    a {
+       color: $turk;
+       padding: 0 4px;
+    }
+}
