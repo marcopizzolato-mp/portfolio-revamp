@@ -9,7 +9,7 @@ enableEmoji = true
 publishDir = "public_web"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$","\\.knit\\.md$", "\\.utf8\\.md$"]
 #disqusShortname = "your-shortname-here"
-#googleAnalytics = "UA-132680808-1"
+googleAnalytics = "UA-132680808-1"
 
 [permalinks]
     post = "/:year/:month/:day/:slug/"
@@ -38,28 +38,24 @@ unsafe= true
   title = "Marco Pizzolato"
   subtitle = "GIS Expert & Data Explorer"
   mdtext = '''
-\
-<b>Welcome to my personal website!</b>  
-  
-This space is a collection of some of the works I have completed so far, from my time in South Sudan responding to the on-going crisis, to my Master in GIS at Edinburgh. You will also find other data explorations mainly with R.   
-     
-     
-<b>A little about me...</b>
-  
-Dynamic and energetic I am very passionate about the projects I get involved in.   
-I am always looking for new projects to embark on which will challenge my brain bringing out my inventiveness, creativity and imagination to find the best solution.   
-Strongly believing that <i>“Together we stand, alone we fall”</i> I always collaborate in a profitable way with my team members, often building over time strong friendships.  
-  
-Happy exploring and get in touch if you want to know more!    
 </br>
-   
-<b><a href="http://www.marcopizzolato.com">Explore!</a></b>
+<p style="font-size: 23px;"><b>Welcome to my personal website!</b></p>
+<p style="font-size: 20px;">This space is a collection of some of my data explorations and some work I have completed so far, during my time in South Sudan responding to the humanitarian crisis, to my Master in GIS at Edinburgh Uni and beyond.<p>
+</br>
+<p style="font-size: 23px;"><b>A little about me...</b></p>
+<p style="font-size: 20px;">Dynamic and energetic I am very passionate about the projects I get involved in.   
+I am always looking for new projects to embark on, which will challenge my brain bringing out my inventiveness, creativity and imagination to find the best solution. Strongly believing that <i>“Together we stand, alone we fall”</i> I always collaborate in a profitable way with my team members, often building over time strong friendships. </p> 
+</br>
+Happy exploring and get in touch if you want to know more!
+</br>
+</br>
+<b><a href="http://www.marcopizzolato.com">- Projects - </a></b><b><a href="http://www.marcopizzolato.com/curriculum/vitae/"> - Curiculum -</a></b>
 </br>
 </br>
 </br>
 '''
-  alertbar = false
 
+alertbar = false
 
 [params.social]
  github = "marcopizzolato-mp"
