@@ -22,3 +22,11 @@ archive
 
 # R Environment Variables
 .Renviron
+
+# Excel Text files
+*.xlsx
+*.txt
+
+# Old images
+marco_prof.jpg
+marco_prof_2.jpg
