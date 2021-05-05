@@ -282,6 +282,18 @@ span.post-name a,span.post-read-more a:hover {
     font-weight:100;
     margin-bottom:0.2rem;
 }
+.footer2 {
+    width: 100%;
+    border-top:1px solid rgba(0,0,0,.05)!important;
+    padding-top:15px;
+    padding-bottom:12px;
+    font-size:0.8rem;
+    color:rgba(0,0,0,.44);
+    margin-top:50px;
+    margin-bottom:62px;
+    position: relative;
+    background: #fff;
+}
 .footer {
     border-top:1px solid rgba(0,0,0,.05)!important;
     padding-top:15px;
@@ -396,10 +408,14 @@ blockquote {
     .listfeaturedtag .card-block {
         padding:20px;
    }
-    .footer {
+    .footer2 {
         margin-top: 0px;
         margin-bottom: 0px;
    }
+   .footer {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
 }
 @media (max-width:1024px) {
     .post-top-meta .col-md-10 {
