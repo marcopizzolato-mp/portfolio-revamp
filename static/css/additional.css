@@ -122,7 +122,7 @@
 @media (max-width : 361px){
 
 .table td {
-    width:50vw;
+    /* width:50vw; */
     font-size: 1.9vw;
 
 }
@@ -132,7 +132,7 @@
 @media (max-width : 641px){
 
 .table td {
-    width:50vw;
+    /* width:50vw; */
     font-size: 1.8vw;
 
 }
