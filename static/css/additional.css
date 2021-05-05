@@ -77,6 +77,9 @@
     width: inherit;
 }
 
+
+/* This is for the table - information products */
+
 /* Smartphones (portrait and landscape) -----------  */
 @media (max-width : 320px){
 .table th {
@@ -136,54 +139,6 @@
 }
 
 
-/*  CV */
-
-dl {
-  display: block;
-  margin-top: 0.3em;
-  margin-bottom: 0.3em;
-  margin-left: 0em;
-  margin-right: 0em;
-}
-
-dt {
-    font-family: Muli;
-    font-size:small;
-    display: block;
-    margin-top: 0em;
-    margin-bottom: 0em;
-    margin-left: 0em;
-    margin-right: 0em;
-}
-
-dt.vitaetitle{
-    font-size:initial;
-    font-family: Muli;
-    margin-bottom: -0.3em;
-}
-
-dt.vitaedt{
-    line-height: 1;
-    color: black;
-    font-family: karla;
-    font-size:small;
-}
-
-ul.vitaelist >li{
-    color: darkgray;
-    font-size:small;
-    line-height: 1.2;
-}
-
-dd {
-    font-family: karla;
-    font-size:small;
-    line-height: 2;
-    margin-top: 0em;
-    margin-bottom: 0em;
-    margin-left: 1.3em;
-    margin-right: 0em;
-}
 
 /*  IMAGE MAGNIFIER */
 @media (min-width : 1025px){
