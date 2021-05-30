@@ -2,6 +2,9 @@
 public
 public_web  
 resources
+narratives
+images_archive
+.vscode
 
 # Ignore folder archive
 archive
