@@ -6,14 +6,20 @@ skills:
 
 
 skillsGrouped:
-  - groupName: "GIS"
-    skills: ["QGIS - ArcGIS Desktop - ArcGIS Enterprise - ArcGIS Developers APIs - ArcGIS Online - Scripting with Arcpy "]
+  - groupName: "GIS	ESRI software & Open Source"
+    skills: ["ArcGIS Desktop/Pro, ArcGIS Enterprise, ArcGIS Online, ESRI APIs, Scripting with Arcpy, QGIS, GDAL, Saga GIS"]
 
-  - groupName: "Data analysis & Programming"
-    skills: ["Python - Jupyter Notebook - R - SQL - Excel - GitHub - HTML - CSS"]
+  - groupName: "Python libraries"
+    skills: ["Pandas, GeoPandas, Shapely, Rasterio, NumPy, SciPy, Matplotlib, SQLAlchemy, Scikit-learn"]
  
+  - groupName: "R libraries"
+    skills: ["tidyverse, dplyr, tidyr, stringr, sf, sp, lubridate, DBI, RPostgresSQL, ggplot2, ggmap, RMarkdown, shiny"]
+
   - groupName: "Database"
-    skills: ["PostgreSQL - PostGIS - Oracle - Oracle Spatial"]
+    skills: ["PostgreSQL, PostGIS, Oracle, Oracle Spatial"]
+  
+  - groupName: "Other"
+    skills: ["SQL, Jupyter Notebook, Excel, GitHub, GitLab, Jira, HTML, CSS, JavaScript, Open Data Kit (ODK)"]
 
 
 interests:
@@ -27,16 +33,28 @@ languages:
 
   - name: "English"
     level: "Fluent"
-    certificates: ["IELTS : 7.5 C1 - 2016"]
 
   - name: "Spanish"
-    level: "Basic"
+    level: "Intermediate"
 
 
 awards:
-  - name: "Spot Light Award"
-    date: "2017"
-    details: "A Decision Support System for 3D Cutting Problem"
+  - name: ""
+    date: "2021"
+    details: "Operational Excellence"
+  - name: ""
+    date: "2021"
+    details: "Spotlight Champion Award, Exceptional contribution"
+  - name: ""
+    date: "2020"
+    details: "Individual Spot Light, contribution to complex project"
+  - name: ""
+    date: "2020"
+    details: "Team Spot Light, team's achievements and living company's values"
+  - name: ""
+    date: "2020"
+    details: "Individual Spot Light, contribution to complex project"
+
 
 certificates:
   - name: "Supervised Learning: Regression"

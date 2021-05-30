@@ -89,10 +89,10 @@ alertbar = false
 experience = true
 education = true
 languages = true
-awards = false
+awards = true
 skills = false
 skills_grouped = true
-interests = true
+interests = false
 contact = true
 linkedin = false
 tagline = true
@@ -120,7 +120,7 @@ links = false
 credits = false
 
 [params.footer]
-footnote = "You can print this resume in or save as pdf directly from the browser - Last update on March 2021."
+footnote = "You can print this resume in or save as pdf directly from the browser - Last update on May 2021."
 
 [params.footer.links]
 [[params.footer.links.link]]

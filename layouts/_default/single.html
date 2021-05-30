@@ -35,24 +35,32 @@
                     <br>
                     {{ end }}     
 
-                    {{ if eq .Params.Zoom "true" }}
                     <!-- Lets make a simple image magnifier -->
-                    <div class="magnify">
+                    <!-- {{ if eq .Params.Zoom "true" }}
+                    <div class="magnify"> -->
                         <!-- This is the magnifying glass which will contain the original/large version -->
-                        <div class="large">
-                        </div>
+                        <!-- <div class="large"> -->
+                        <!-- </div> -->
                             <!-- This is the cover image without the if-statement -->
-                            <figure style="font-style: italic; font-size: smaller; text-indent: 0; color:rgba(150,150,150,100);">
+                            <!-- <figure style="font-style: italic; font-size: smaller; text-indent: 0; color:rgba(150,150,150,100);">
                             <img style="border-radius: 0.30rem; max-width:100%; margin-top: 0.8em; margin-bottom: 0.3em;" class="small" src="{{ .Params.image | urlize | relURL }}">
                             <figcaption>{{ .Params.imgcaption }}</figcaption>
                             </figure>
                     </div>
+                    {{ end }} -->
+
+                    {{ if eq .Params.Zoom "true" }}
+                        <!-- This is the cover image with the frame -->
+                        <figure style="font-style: italic; font-size: smaller; text-indent: 0; color:rgba(150,150,150,100);">
+                        <img style="border-radius: 0.30rem; max-width:100%; margin-top: 0.1em; margin-bottom: 0.3em; border:1px solid rgb(202, 202, 202); padding:3px;" class="small" src="{{ .Params.image | urlize | relURL }}">
+                        <figcaption>{{ .Params.imgcaption }}</figcaption>
+                        </figure>
                     {{ end }}
 
                     {{ if eq .Params.Zoom "false" }}
                         <!-- This is the cover image without the if-statement -->
                         <figure style="font-style: italic; font-size: smaller; text-indent: 0; color:rgba(150,150,150,100); ">
-                        <img style="border-radius: 0.30rem; max-width:100%; margin-top: 0.8em; margin-bottom: 0.3em; " class="small" src="{{ .Params.image | urlize | relURL }}">
+                        <img style="border-radius: 0.30rem; max-width:100%; margin-top: 0.1em; margin-bottom: 0.3em; " class="small" src="{{ .Params.image | urlize | relURL }}">
                         <figcaption>{{ .Params.imgcaption }}</figcaption>
                         </figure>
                     {{ end }}

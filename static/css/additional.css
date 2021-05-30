@@ -78,6 +78,28 @@
 }
 
 
+.table2 th {
+    padding: .1rem .6rem .1rem .6rem;
+    vertical-align: middle;
+    border-top: 1px solid #dee2e6;
+    font-size: 1rem;
+    line-height: 1.2rem;
+}
+
+.table2 td {
+    padding: .2rem .7rem .2rem .7rem;
+    vertical-align: middle;
+    border-top: 1px solid #dee2e6;
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+}
+
+.table2 {
+    border-spacing: 0.5rem;
+    width: auto;
+    margin: auto;
+}
+
 /* This is for the table - information products */
 
 /* Smartphones (portrait and landscape) -----------  */
@@ -184,7 +206,7 @@ img[alt=medium] {
     margin-right: auto;
     width: 70%;
     margin-top: 3em;
-    margin-bottom: 2em;
+    margin-bottom: 2em; 
 }
 
 img[alt=small] { 
