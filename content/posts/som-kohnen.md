@@ -1,7 +1,7 @@
 ---
 title: "SOM - Self Organising Maps"
-date: 2019-11-10T11:40:14+02:00
-publishdate: 2019-11-10T11:40:14+02:00
+date: 2020-11-10T11:40:14+02:00
+publishdate: 2020-11-10T11:40:14+02:00
 imagethumb: "/images/som_konhen/small_image_som.jpg"
 image: "/images/som_konhen/edinburg_east_min.jpg"
 description: "Unsupervised machine learning to analyse the Scottish Index of Multiple Deprivation"
