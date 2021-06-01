@@ -1,7 +1,7 @@
 ---
 title: "Information Products"
-date: 2017-08-15T11:40:14+02:00
-publishdate: 2017-08-1511:40:14+02:00
+date: 2020-06-15T11:40:14+02:00
+publishdate: 2020-06-1511:40:14+02:00
 imagethumb: "/images/information_products/particip_mapping.jpg"
 image: "/images/information_products/ssd_focusgroup.jpg"
 comments: false

@@ -1,7 +1,7 @@
 ---
 title: "South Sudan Maps"
-date: 2017-12-15T11:40:14+02:00
-publishdate: 2017-12-15T11:40:14+02:00
+date: 2020-08-15T11:40:14+02:00
+publishdate: 2020-08-15T11:40:14+02:00
 imagethumb: "/images/south_sudan/ssd_ref_1mb-min.jpg"
 image: "/images/south_sudan/ssd_ref_1mb-min.jpg"
 description: "Reference maps created to support the humanitarian crisis response"

@@ -1,7 +1,7 @@
 ---
 title: "Shiny App"
-date: 2019-05-19T11:40:14+02:00
-publishdate: 2019-05-19T11:40:14+02:00
+date: 2021-03-19T11:40:14+02:00
+publishdate: 2021-03-19T11:40:14+02:00
 imagethumb: "/images/shinyapp/shinyapp.jpg"
 image: ""
 description: "Dynamic and responsive R-Shiny application to interrogate a large settlement dataset with population figures"
