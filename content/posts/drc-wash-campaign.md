@@ -1,7 +1,7 @@
 ---
 title: "Cholera Response DRC"
-date: 2019-04-16T11:40:14+02:00
-publishdate: 2019-04-16T11:40:14+02:00
+date: 2021-02-16T11:40:14+02:00
+publishdate: 2021-02-16T11:40:14+02:00
 imagethumb: "/images/cholera_drc/cholera_frontpage_adj.jpg"
 image: "/images/cholera_drc/village_river_min.jpg"
 description: "Extracting villages location and population estimates to support WASH activity in Democratic Republic of Congo"
