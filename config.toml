@@ -36,11 +36,11 @@ unsafe= true
 [params.index]
   picture = "./images/marcopizzo.jpg"
   title = "Marco Pizzolato"
-  subtitle = "GIS Expert & Data Explorer"
+  subtitle = "Geospatial Data Scientist"
   mdtext = '''
 </br>
 <p style="font-size: 23px;"><b>Welcome to my personal website!</b></p>
-<p style="font-size: 20px;">This space is a collection of some of my data explorations and some work I have completed so far, during my time in South Sudan responding to the humanitarian crisis, to my Master in GIS at Edinburgh Uni and beyond.<p>
+<p style="font-size: 20px;">This space is a collection of some data explorations and works I have completed while in South Sudan responding to the humanitarian crisis, during my MSc in GIS at the University of Edinburgh and in my free time.<p>
 </br>
 <p style="font-size: 23px;"><b>A little about me...</b></p>
 <p style="font-size: 20px;">Dynamic and energetic I am very passionate about the projects I get involved in.   

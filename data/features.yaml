@@ -35,7 +35,7 @@ languages:
     level: "Fluent"
 
   - name: "Spanish"
-    level: "Intermediate"
+    level: "Working proficiency"
 
 
 awards:
@@ -70,7 +70,7 @@ certificates:
 
 about:
   - name: "Marco Pizzolato"
-    tagline: "Senior GIS Consultant"
+    tagline: "Geospatial Data Scientist"
     phone: ""
     linkedin: "/in/mertbakir"
     email: "contact@marcopizzolato.com"
