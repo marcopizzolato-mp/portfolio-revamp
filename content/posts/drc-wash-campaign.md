@@ -18,10 +18,10 @@ zoom: "true"
 <p>This project started after a call from a friend of mine deployed in DRC, the Democratic Republic of Congo.
 She said that <b>cholera outbreaks</b> were ongoing in many villages along the rivers Kasai and Sankuru and her organisation wanted to roll out a vast <b>Water Sanitation and Hygiene</b> (WASH) campaign, targeting all settlements within 20 km and monitor those between 30 and 50 km from these two rivers. The problem was that they did not have a reliable list of villages with <b>population estimates</b>, and she asked me if I could support looking into available datasets. </p>
 
-<p> Let's see what I can do, I said... and after a weekend of intense work, I shared back a list of <b>over 5000</b> villages within 20 and 50 km from the two rivers, with population estimates extracted from two different datasets and an interactive <b>R Shiny Web Application</b> to navigate the results.</p>   
+<p> Let's see what I can do, I said... and after a a few days of intense work, I shared back a list of <b>over 5000</b> villages within 20 and 50 km from the two rivers, with population estimates extracted from two different datasets and an interactive <b>R Shiny Web Application</b> to navigate the results.</p>   
 
 <h2>Area of interest</h2>
-<p> The area of interest is quite large, stretching over more than 3000 km of river length and an area of approximately 100 thousand sqkm for the 20 km buffer and 250 thousand sqkm for the 50 km buffer. </p>
+<p> The area of interest is quite large, stretching over more than 3000 km of river length and an area of approximately 100 thousand km<sup>2</sup> for the 20 km buffer and 250 thousand km<sup>2</sup> for the 50 km buffer. </p>
 
 <div style="text-align: center">
 <figure class="figcap framelight">
@@ -76,7 +76,7 @@ To estimate the population dataset I chose to use both a well-known dataset but 
 
 
 <h2>Methods and results</h2>
-<p>The data processing and analysis was carried outusing <b>R Studio</b> and <b>QGIS</b>, below a list of the libraries used:</p>
+<p>The data processing and analysis was carried out using <b>R Studio</b> and <b>QGIS</b>, below a list of the libraries used:</p>
 
 <div style="text-align: left">
 <figure class="figcap framelight"><blockquote><code style = "line-height:0.2">
@@ -166,7 +166,7 @@ However, the two datasets seem to agree on the overall population figure, with a
 </br>
 <h2>R Shiny Web Application</h2>
 <p>
-To support the visual exploration of the dataset I created and deployed a <b>fully responsive</b> and <b>dynamic</b> R-Shiny Web Application, called <b>Shiny Afrique</b>. This application allows the user to retrieve information per each village on-click, as well as filtering the the villages according to distance from the river or by name.
+To support the visual exploration of the dataset I created and deployed a <b>fully responsive</b> and <b>dynamic</b> R-Shiny Web Application, called <b>Shiny Afrique</b>. This application allows the user to retrieve information per each village on-click, as well as filter the villages according to distance from the river or by name.
 The app also calculates and dynamically returns some <b>statistics</b> based on the villages visible in the map. These are displayed in an <b>histogram</b> showing the number of villages against the distance from the rivers and in a table reporting the <b>total population</b> figure and the <b>average population</b> per village in the current selection.</p>
 
 

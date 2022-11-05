@@ -22,8 +22,6 @@ To support the work of the humanitarian organisations operating in the Country I
 </p>
 
 
-
-
 <h2>States Atlas</h2>
 <p>
 Together with the <b><a target="_blank" href="https://www.impact-repository.org/document/reach/94fd7237/reach_ssd_map_southsudan_15june2017_a3l_0.pdf">South Sudan reference map</a></b> I published also a <b><a target="_blank" href="https://www.impact-repository.org/document/reach/f5e99332/reach_ssd_maps_stateatlas_7february2017.pdf">National Atlas </a></b>, which reporta the detailed location of several small villages, making use of the Humanitarian Data Exchange settlement dataset. 
@@ -42,12 +40,12 @@ Together with the <b><a target="_blank" href="https://www.impact-repository.org/
 
 <h2>Capital Juba</h2>
 
-<p> Juba, the capital of the Republic, has very few landmarks and tarmac roads but has a very intricate daedalus of unpaved and unnamed roads that extend from the center to the outskirts of the city, making sometimes difficult to know in which neighborhood you are in. To support the NGOs during the yearly cholera response I created a city reference map, mapping all the neighborhoods, main roads and building footprints. This basemap became crucial in the summer of 2016 when the city went through a sudden and unexpected outbreak of violence, that saw several citizens leaving their homes and seeking protection and humanitarian support in various sites.</p>
+<p> Juba, the capital of the Republic, has very few landmarks and tarmac roads but has a very intricate labyrinth of unpaved and unnamed roads that extend from the center to the outskirts of the city, making sometimes difficult to know in which neighborhood you are in. To support the NGOs during the yearly cholera response I created a city reference map, mapping all the neighborhoods, main roads and building footprints. This base map became crucial in the summer of 2016 when the city went through a sudden and unexpected outbreak of violence, that saw several citizens leaving their homes and seeking protection and humanitarian support in various sites.</p>
 
 <div style="text-align: center">
 <figure class="figcap framelight">
 <img style="border-radius: 0.15rem; max-width:80%; margin-top: 0.8em; margin-bottom: 0.3em; border:1px solid rgb(202, 202, 202); padding:3px;"  alt="displacement during 2016 crisis of South Sudan"  class="medium" src="/images/south_sudan/reach_ssd_juba_rapididpestimation_july2016.gif">
-<figcaption>Figure 2 - Displacement of people in Juba, Capital of South Sudan, during the fightings in July 2016.&nbsp;&nbsp;</figcaption>
+<figcaption>Figure 2 - Displacement of people in Juba, Capital of South Sudan, during the violent clashes in July 2016.&nbsp;&nbsp;</figcaption>
 </figure>
 </div>
 
