@@ -18,7 +18,7 @@ zoom: "true"
 <p>The Scottish Government calculates and publish the <b>Scottish Index of Multiple Deprivation</b> (SIMD) which measures the access and availability of opportunities and resources in the different Scottish Data Zones. 
 The SIMD has <b>26 indicators</b>, aggregated in <b>seven domains</b>: income, employment, health, education, mobility, crime and housing. Each domain has a single index where low values represent high levels of deprivation and all seven indexes combined build the overall deprivation index.</p>
 
-<p> The outcomes of the SIMD are meant to be used by the Scottish Government and other organizations to better target their interventions. However, the <b>structure of the index</b> poses a <b>challenge</b> making difficult the selection of the geographical units to target with social interventions. This because a user can either look at the overall ranking, which lacks in fine details about deprivation, or look at the single domain ranking or the single indicator losing a holistic view. </p>   
+<p> The outcomes of the SIMD are meant to be used by the Scottish Government and other organizations to better target their interventions. However, the <b>structure of the index</b> poses a <b>challenge</b> making difficult the selection of the geographical units to target with social interventions. This is because a user can either look at the overall ranking, which lacks in fine details about deprivation, or look at the single domain ranking or the single indicator, losing a holistic view. </p>   
 
 <p> In between these two levels of interpretations, overall ranking and single domain ranking, this work looks at using the <b>Self Organising Maps</b> (SOM), an <b>unsupervised machine learning technique</b>, to profile the <b>527 Data Zones</b> inS the City of Edinburgh and group them by similarity, making differences and affinities immediately visible.</p>   
 
@@ -29,7 +29,7 @@ The SIMD has <b>26 indicators</b>, aggregated in <b>seven domains</b>: income, e
 
 <h2>Model Calibration</h2>
 
-<p>The model calibration is necessary to adjust the parameters to obtain the best model performances and testing the variables for collinearity.
+<p>The model calibration is necessary to: (1) adjust the parameters obtaining the best model performances and, (2) test the variables for collinearity.
 
 <h3>Grid</h3>
 <p>
@@ -146,7 +146,7 @@ Figure 1 shows the distribution patterns while Table 1 the variables chosen for 
 
 
 <h2>Data Analysis</h2>
-<p>The data processing and analysis was carried outusing <b>R Studio</b>, below a list of the libraries used:</p>
+<p>The data processing and analysis was carried out using <b>R Studio</b>, below a list of the libraries used:</p>
 </p>
 <div style="text-align: left">
 <figure class="figcap framelight"><blockquote><code style = "line-height:0.2">

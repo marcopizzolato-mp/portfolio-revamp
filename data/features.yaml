@@ -1,7 +1,7 @@
 skills:
-  - "Python - R - Jupyter - "
+  - "Python - R - Jupyter "
   - "SQL - Oracle"
-  - "QGIS - ArcGIS Desktop - ArcGIS PRO"
+  - "QGIS - ArcGIS PRO - Arcpy"
   - "ArcGIS Enterprise - ESRI API"
 
 
@@ -10,7 +10,7 @@ skillsGrouped:
     skills: ["ArcGIS Desktop/Pro, ArcGIS Enterprise, ArcGIS Online, ESRI APIs, Scripting with Arcpy, QGIS, GDAL, Saga GIS"]
 
   - groupName: "Python libraries"
-    skills: ["Pandas, GeoPandas, Shapely, Rasterio, NumPy, SciPy, Matplotlib, SQLAlchemy, Scikit-learn"]
+    skills: ["Pandas, GeoPandas, Shapely, Rasterio, NumPy, Matplotlib, SQLAlchemy"]
  
   - groupName: "R libraries"
     skills: ["tidyverse, dplyr, tidyr, stringr, sf, sp, lubridate, DBI, RPostgresSQL, ggplot2, ggmap, RMarkdown, shiny"]
@@ -34,8 +34,6 @@ languages:
   - name: "English"
     level: "Fluent"
 
-  - name: "Spanish"
-    level: "Working proficiency"
 
 
 awards:
@@ -73,7 +71,7 @@ about:
     tagline: "Geospatial Data Scientist"
     phone: ""
     linkedin: "/in/mertbakir"
-    email: "contact@marcopizzolato.com"
+    email: ""
     details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ornare sollicitudin fringilla.
               Aenean nec volutpat arcu. Maecenas quis tempus risus. Curabitur condimentum ligula in erat pharetra porta. 
               Nam suscipit nisi a bibendum lacinia."
