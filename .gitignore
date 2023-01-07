@@ -8,6 +8,7 @@ images_archive
 
 # Ignore folder archive
 archive
+_archive
 
 # History files
 .Rhistory
