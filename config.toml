@@ -9,7 +9,6 @@ enableEmoji = true
 publishDir = "public_web"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$","\\.knit\\.md$", "\\.utf8\\.md$"]
 #disqusShortname = "your-shortname-here"
-googleAnalytics = "UA-132680808-1"
 
 [permalinks]
     post = "/:year/:month/:day/:slug/"
