@@ -15,7 +15,7 @@ zoom: "true"
 
 
 <div class='container'>
-<h1>Project aim</h1>
+<h1>1. Project aim</h1>
 
 <p>
 With this project, I wanted to create an interactive tool with Python and Flask to allow both experienced users and those with no previous GIS experience to easily retrieve information on raster files with a few simple clicks.<br>
@@ -29,7 +29,7 @@ Using Python and Flask I built an <b>interactive tool</b> called <b>“Bird’s 
 
 </p>
 
-<h2>What is a raster?</h2>
+<h2>2. What is a raster?</h2>
 
 <p>
 Remotely sensed images such as aerial photographs, imagery from satellites, or imagery from sensors are saved as raster. In its simplest form, a raster is a matrix of cells (or pixels), organized into a grid of rows and columns, with each cell containing a value representing information <i>(ESRI)</i>. <br>
@@ -74,8 +74,8 @@ Raster files not only contain cell value but also metadata information, necessar
 
 <br>
 
-<h1>The “Bird’s eye viewer” Web Application</h1>
-<h2>Technology overview</h2>
+<h1>3. The “Bird’s eye viewer” Web Application</h1>
+<h2>3.1 Technology overview</h2>
 <p>
 The project was developed using Python to handle the two macro functionalities needed: 
 (1) the raster analysis and (2) the front-end construction and rendering, to display the results. <br>
@@ -101,11 +101,11 @@ The project develops in three python files: the app.py and the rasterhandler.py,
 </p>
 
 
-<h2>Python object-oriented structure - rasterhandler.py</h2>
+<h2>3.2 Python object-oriented structure - rasterhandler.py</h2>
 <p>
 As mentioned the rasterhandler.py module contains the object, methods and functions necessary to analyse a raster file, retrieving the information that needs to be displayed in the front-end. It contains the elements listed below. 
 </p> 
-<h3>Raster object </h3>
+<h3>3.2.1 Raster object </h3>
 <p>
 The purpose of this object is to store efficiently raster metadata as strings and raster data as an array, to facilitate the retrieval of these through specific get methods. <br>
 From the code snippet in Figure 2, it is possible to see the definition of the raster Class, with its private attributes filled upon the creation of the object itself. In the last rows is also available an example of the get methods used to retrieve the private attribute values from the raster Class. The raster Class has one get method for each one of the attributes. 
@@ -120,7 +120,7 @@ From the code snippet in Figure 2, it is possible to see the definition of the r
 
 <br>
 
-<h3>read_raster function</h3>
+<h3>3.2.2 read_raster function</h3>
 <p>
 The function read_raster takes as an input parameter a raster file Path object, opens the raster file as a rasterio dataset object and passes it to the raster object Class, creating one instance of it. This raster object instance is then passed as output with the return statement. <br>
 In addition to the above, the function contains also the code to raise some exceptions if the parameter passed is not correct (Figure 3). In particular, exceptions will be raised if: (1) the input parameter is not a Path object, (2) the target file does not exist and (3) if the file does not have a .tif extension.  
@@ -135,7 +135,7 @@ In addition to the above, the function contains also the code to raise some exce
 
 <br>
 
-<h3>raster_metadata function</h3>
+<h3>3.2.3 raster_metadata function</h3>
 <p>
 The raster_metadata function takes as input an instance of the raster Class, calling the get method of the object to retrieve all the attributes of interest, which are passed into a dictionary. This dictionary is then returned with the return statement at the end of the function.
 </p>
@@ -149,7 +149,7 @@ The raster_metadata function takes as input an instance of the raster Class, cal
 
 <br>
 
-<h2>Flask Structure – app.py</h2>
+<h2>3.3 Flask Structure – app.py</h2>
 <p>
 Flask is a very accessible micro-framework, which provides the essential components for developing web applications. Some of these essential components are those used in this project, such as request handling, sessions and routing. In a micro-framework, additional functionalities are developed by building or using additional modules or use extensions, as we did in this current project, where we built a module to handle a raster object and its metadata. 
 <br>
@@ -157,7 +157,7 @@ The web application is built using the code in the app.py file, which does the f
 Below there is a detailed explanation of each one of these items:
 
 </p> 
-<h3>Flask app object</h3>
+<h3>3.3.1 Flask app object</h3>
 <p>
 Creating an instance of the Flask object is a straightforward action, and can be done with the line of code in Figure 5 below. In the code in the same Figure, are also set some global parameters used across the Views when rendering the HTML templates. 
 </p>
@@ -171,7 +171,7 @@ Creating an instance of the Flask object is a straightforward action, and can be
  
 <br>
 
-<h3>Flask Views</h3>
+<h3>3.3.2 Flask Views</h3>
 <p>
 To display something on the browser it is necessary to create Views, and in Flask this is done through functions. In our web application, each View function calls one of the HTML templates and therefore we can say that each View corresponds to a page. This is true for all the functions except for the upload_file() one, which handles the POST request to upload the file. 
 Figure 6 shows the code that creates the View for the homepage, while Figure 7 shows a summary list of all the five View functions, four of which are used to create website pages, while one handles the POST request, as mentioned above.  
@@ -210,12 +210,12 @@ Figure 8 shows a code snippet of the HTML template file that controls the genera
 
 <br>
 
-<h3>Route decorator</h3>
+<h3>3.3.3 Route decorator</h3>
 <p>
 The purpose of the route decorator is to assign a specific URL to the different Flask View functions, and therefore website pages. The association between each View function and the page URL is done by using the route() decorator (Figure 6 and Figure 7). 
 </p>
 
-<h2>Unit testing - test_rasterhandler.py</h2>
+<h2>3.4 Unit testing - test_rasterhandler.py</h2>
 <p>
 When building a script to solve a task, the first thing to do is to break down the initial task into smaller ones, that are easier to solve. Each smaller task can be further broken down into single actions, such as reading a file, performing some data conversion, saving the data in the database, etc. All these actions can be isolated and considered the building blocks that once put together will start solving the smaller tasks, until arriving to solve the initial one. 
 Each one of these blocks can be considered as a unit and it is good coding practice to write some tests, to ensure that each unit always performs as designed returning the expected results. These tests are called Unit Tests and are the first level of software testing. <br> 
@@ -234,7 +234,7 @@ In Figure 9 below there is a code snippet that summarises some of the tests writ
 <br>
 
 
-<h2>User interface and user interactions</h2>
+<h2>3.5 User interface and user interactions</h2>
 <p>
 The web app user interface has four pages: “New upload”, “File Information”, “Metadata” and a “Thumbnail” page graphically represented in Figure 10, which correspond to the View functions illustrated in Figure 7. <br>
 The child pages are not available when the user first visits the home page, but become available after a raster file is uploaded and analysed. From that point onwards, all pages are available and, at any point, the user can reach again the “New Upload” page and perform a new upload. 
@@ -299,7 +299,7 @@ The user can at this point access the “Metadata” or the “Thumbnail” page
 
 <br>
 
-<h2>Further developments</h2>
+<h2>4. Further developments</h2>
 
 <p>
 This web application is only at its first version and there some features that will be added in the next versions. Currently the code has been restricted to deal only with single-band raster images in .tif format. The next development will be to expand to other commonly used GDAL drivers, allowing the user to submit multi-band raster files.  
@@ -307,7 +307,7 @@ This web application is only at its first version and there some features that w
 
 
 
-<h2>References</h2>
+<h2>5. References</h2>
 <div style="text-align: left">
 <figure><code style = "line-height:0.2; font-style:italic">
 - ESRI, "What is raster data?" https://desktop.arcgis.com/en/arcmap/latest/manage-data/raster-and-images/what-is-raster-data.htm 
