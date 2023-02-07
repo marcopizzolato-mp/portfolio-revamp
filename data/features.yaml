@@ -6,20 +6,20 @@ skills:
 
 
 skillsGrouped:
+  - groupName: "Data Engineering"
+    skills: ["AWS, Microsoft Azure, Spark, SQL, Hadoop"]
+
   - groupName: "GIS	ESRI software & Open Source"
-    skills: ["ArcGIS Desktop/Pro, ArcGIS Enterprise, ArcGIS Online, ESRI APIs, Scripting with Arcpy, QGIS, GDAL, Saga GIS"]
+    skills: ["ArcGIS Pro, ArcGIS Enterprise, ArcGIS Online, ESRI APIs, Scripting with Arcpy, QGIS, GDAL, Saga GIS"]
 
   - groupName: "Python libraries"
     skills: ["Pandas, GeoPandas, Shapely, Rasterio, NumPy, Matplotlib, SQLAlchemy"]
  
-  - groupName: "R libraries"
-    skills: ["tidyverse, dplyr, tidyr, stringr, sf, sp, lubridate, DBI, RPostgresSQL, ggplot2, ggmap, RMarkdown, shiny"]
-
   - groupName: "Database"
     skills: ["PostgreSQL, PostGIS, Oracle, Oracle Spatial"]
   
   - groupName: "Other"
-    skills: ["SQL, Jupyter Notebook, Excel, GitHub, GitLab, Jira, HTML, CSS, JavaScript, Open Data Kit (ODK)"]
+    skills: ["Jupyter,  GitHub, GitLab, Jira, HTML, CSS, JavaScript"]
 
 
 interests:

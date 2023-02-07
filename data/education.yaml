@@ -1,11 +1,11 @@
+- name: "Post Graduate Program in Data Engineering"
+  university: "Simplilearn Alumni"
+  date: "2022 - 2023"
+  grade: "on-going"
+
 - name: "MSc Geographical Information Systems (GIS)"
   university: "The University of Edinburgh"
   date: "2017 - 2018"
-  grade: "Distinction"
-
-- name: "Specialisation Water Resources Management"
-  university: "University of Milano Bicocca"
-  date: "2013 - 2014"
   grade: "Distinction"
 
 - name: "MSc Environmental Analysis and Management"
