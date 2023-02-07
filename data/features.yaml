@@ -7,7 +7,7 @@ skills:
 
 skillsGrouped:
   - groupName: "Data Engineering"
-    skills: ["AWS, Microsoft Azure, Spark, SQL, Hadoop"]
+    skills: ["Amazon Web Services, Microsoft Azure, Google Cloud Fundamentals, Hadoop, Spark, PySpark, Apache Kafka, MongoDB"]
 
   - groupName: "GIS	ESRI software & Open Source"
     skills: ["ArcGIS Pro, ArcGIS Enterprise, ArcGIS Online, ESRI APIs, Scripting with Arcpy, QGIS, GDAL, Saga GIS"]
@@ -23,7 +23,7 @@ skillsGrouped:
 
 
 interests:
-  - "Data Science"
+  - "Data Engineering"
   - "Geospatial Problems"
   - "Remote Sensing"
 
