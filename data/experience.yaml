@@ -1,24 +1,26 @@
 - company: Ricardo Energy & Environment
   roles:
+    - role: Principal GIS Consultant
+      details: "Management of projects in autonomy delegating tasks to more junior staff; Support senior management in delineating the overall GIS strategy."
+      date: "2022 -  Present"
+
     - role: Senior GIS Consultant
-      details: "Management of projects with a high degree of autonomy, delegating tasks to more junior staff. Support senior management in delineating the overall GIS strategy"
+      details: "Responsible for innovating the geospatial processes moving to Python, SQL and R; Deliver bespoke Web Applications based on ArcGIS Enterprise."
       date: "2020 -  Present"
       
     - role: GIS Consultant
-      details: "Responsible for innovating the geospatial processes moving to python and R; Deliver bespoke Web Applications based on ArcGIS Enterprise"
       date: "2019 -  2020"
 
 - company: Rainforest UK
   roles: 
     - role: GIS and Web Mapping Officer
-      details: "Creation of R scripts to perform geospatial analysis; Creation of Python scripts to analyse and aggregate lage numbers of shapefiles"
       date: "2018 -  2019"
 
 - company: IMPACT Initiatives
   roles:
     - role: Senior GIS Officer
-      details: "Team management and coordination to support the expansion of in seven out of ten states in South Sudan; Timely data analysis and production of information products that ensured more effective service delivery to beneficiaries"
+      details: "Timely data analysis and production of information products that ensured more effective service delivery to beneficiaries."
       date: "2016 - 2017"
     - role: GIS Officer
-      details: "Implementation of assessments based on mobile data collection in volatile environments"
+      details: "Implementation of assessments based on mobile data collection in volatile environments."
       date: "2015 - 2016"
